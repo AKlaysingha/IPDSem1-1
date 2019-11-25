@@ -27,7 +27,7 @@ def move(my_history, their_history, my_score, their_score):
         opponents_recent_moves = [their_history[-1],their_history[-2],their_history[-3] ]
     b_count = 0
     if len(their_history) < 3:
-        return 'c'
+        return 'b'
     else:
         for moves in opponents_recent_moves:
             if 'b' in opponents_recent_moves:
